@@ -1,0 +1,134 @@
+
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+body{
+	
+	background-color: #01DFD7;
+	/*background-image: url("bg.jpg");
+	background-repeat : no-repeat;
+
+	background-size: cover;*/
+	margin: 0;
+}
+
+.main-part {
+	position: absolute;
+	background-image: url("./photos/bg.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 100%;   
+}
+.main-wrapper{
+    position: relative;
+    background-image: url("./photos/gtu.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;  
+}
+.extra-part{
+
+}
+
+.art-headline {
+	font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    color: #000000;
+    text-align: center;
+}
+
+.art-slogan{
+	font-size: 42px;
+    font-family:'Amatic SC', cursive;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    color: #000000;
+    text-align: center;
+}
+.same-part{
+    width: auto !important;
+    min-width: 240px !important;
+    max-width: none !important;
+    margin-right: 25% !important;
+    margin-left: 25% !important;
+    margin-top: 1% !important;
+
+}
+
+/*#img-admin {
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: relative;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  	
+    margin: auto;
+
+}*/
+
+.info-sheet{
+	border: 5px solid #F5DCDC;
+    width: auto !important;
+    min-width: 240px !important;
+    max-width: none !important;
+    margin-right: 25% !important;
+    margin-left: 25% !important;
+    margin-top: 1% !important;
+}
+
+.info-nav{
+	border: 2px solid #4C3D2A;
+	background-color: #321B1B;
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+}
+
+.info-nav ul{
+	list-style: none;
+}
+.info-nav ul li  {
+    display: inline-block;
+
+}
+.info-nav ul li a{
+	text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #E4BCBC
+}
+
+.info-nav li a:hover{
+    background-color: #A16464;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu{
+
+}
+.adm-article {
+	background-color: white;
+	border: 2px solid #4C3D2A;
+	padding-top: 10px;
+}
+
+.adm-article-cont{
+    background-color: white;
+    border: 2px solid #4C3D2A;
+    padding-top: 10px;
+    text-align: center;
+}
+.adm-article-cont img {
+	width:40px;
+	height:40px;
+	padding:5;
+	
+}
